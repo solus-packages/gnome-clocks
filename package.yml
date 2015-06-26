@@ -1,0 +1,28 @@
+name        : gnome-clocks
+version     : 3.16.1
+release     : 5
+source      :
+    - http://ftp.gnome.org/pub/gnome/sources/gnome-clocks/3.16/gnome-clocks-3.16.1.tar.xz : 1804bac40d95044d43d6c04762dd2a0785f8783b38d9393290c31face083f3cc
+homepage    : http://www.gnome.org
+license     :
+    - GPL-2.0
+summary     : Gnome Clock application
+builddeps   :
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(gweather-3.0)
+    - pkgconfig(libcanberra)
+    - pkgconfig(gnome-desktop-3.0)
+    - pkgconfig(geocode-glib-1.0)
+    - pkgconfig(geoclue-2.0)
+    - pkgconfig(gsound)
+    - itstool
+rundeps     :
+    - geoclue
+description : |
+    World clocks, stopwatch, alarms and more
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install
