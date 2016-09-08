@@ -1,8 +1,8 @@
 name       : gnome-clocks
-version    : 3.20.1
-release    : 7
+version    : 3.20.2
+release    : 8
 source     :
-    - http://ftp.gnome.org/pub/gnome/sources/gnome-clocks/3.20/gnome-clocks-3.20.1.tar.xz : 92ad7b409c5118464af49ca28262ae43e9d377435ad2b10048b23e6e11ae476f
+    - http://ftp.acc.umu.se/pub/gnome/sources/gnome-clocks/3.20/gnome-clocks-3.20.2.tar.xz : 7db01207eb9632cec748772b859900313732eacca652753d771fd99a32713617
 license    :
     - GPL-2.0
 summary    : Gnome Clock application
