@@ -2,8 +2,8 @@
     <Source>
         <Name>gnome-clocks</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
         </Packager>
         <License>GPL-2.0</License>
         <PartOf>desktop.gnome</PartOf>
@@ -62,6 +62,18 @@
             <Path fileType="doc">/usr/share/help/cs/gnome-clocks/world-add.page</Path>
             <Path fileType="doc">/usr/share/help/cs/gnome-clocks/world-check.page</Path>
             <Path fileType="doc">/usr/share/help/cs/gnome-clocks/world-remove.page</Path>
+            <Path fileType="doc">/usr/share/help/da/gnome-clocks/alarm-add.page</Path>
+            <Path fileType="doc">/usr/share/help/da/gnome-clocks/alarm-edit.page</Path>
+            <Path fileType="doc">/usr/share/help/da/gnome-clocks/alarm-remove.page</Path>
+            <Path fileType="doc">/usr/share/help/da/gnome-clocks/alarm-snooze-stop.page</Path>
+            <Path fileType="doc">/usr/share/help/da/gnome-clocks/figures/gnome-clocks.png</Path>
+            <Path fileType="doc">/usr/share/help/da/gnome-clocks/index.page</Path>
+            <Path fileType="doc">/usr/share/help/da/gnome-clocks/legal.xml</Path>
+            <Path fileType="doc">/usr/share/help/da/gnome-clocks/stopwatch.page</Path>
+            <Path fileType="doc">/usr/share/help/da/gnome-clocks/timer.page</Path>
+            <Path fileType="doc">/usr/share/help/da/gnome-clocks/world-add.page</Path>
+            <Path fileType="doc">/usr/share/help/da/gnome-clocks/world-check.page</Path>
+            <Path fileType="doc">/usr/share/help/da/gnome-clocks/world-remove.page</Path>
             <Path fileType="doc">/usr/share/help/de/gnome-clocks/alarm-add.page</Path>
             <Path fileType="doc">/usr/share/help/de/gnome-clocks/alarm-edit.page</Path>
             <Path fileType="doc">/usr/share/help/de/gnome-clocks/alarm-remove.page</Path>
@@ -228,12 +240,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="8">
+        <Update release="9">
             <Date>2016-09-08</Date>
-            <Version>3.20.2</Version>
+            <Version>3.22.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
         </Update>
     </History>
 </PISI>
