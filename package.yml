@@ -1,24 +1,24 @@
 name       : gnome-clocks
-version    : 3.22.1
-release    : 9
+version    : 3.24.0
+release    : 10
 source     :
-    - http://ftp.gnome.org/pub/gnome/sources/gnome-clocks/3.22/gnome-clocks-3.22.1.tar.xz : bee05dd8e7b7c79a3ff6d8505c0ecc3bae16002128ec0e2065dd25aa5e5416af
+    - http://ftp.gnome.org/pub/gnome/sources/gnome-clocks/3.24/gnome-clocks-3.24.0.tar.xz : 9d5ae0e972ad92d0a0873af9e0f9b00b8378b3cd50b7830e6fb9a227c6107f36
 license    : GPL-2.0
 component  : desktop.gnome
 summary    : Gnome Clock application
+description: |
+    World clocks, stopwatch, alarms and more
 builddeps  :
+    - pkgconfig(geoclue-2.0)
+    - pkgconfig(geocode-glib-1.0)
+    - pkgconfig(gnome-desktop-3.0)
+    - pkgconfig(gsound)
     - pkgconfig(gtk+-3.0)
     - pkgconfig(gweather-3.0)
     - pkgconfig(libcanberra)
-    - pkgconfig(gnome-desktop-3.0)
-    - pkgconfig(geocode-glib-1.0)
-    - pkgconfig(geoclue-2.0)
-    - pkgconfig(gsound)
     - itstool
 rundeps    :
     - geoclue
-description: |
-    World clocks, stopwatch, alarms and more
 setup      : |
     %configure
 build      : |
