@@ -1,8 +1,8 @@
 name       : gnome-clocks
-version    : 3.24.0
-release    : 10
+version    : 3.26.0
+release    : 11
 source     :
-    - http://ftp.gnome.org/pub/gnome/sources/gnome-clocks/3.24/gnome-clocks-3.24.0.tar.xz : 9d5ae0e972ad92d0a0873af9e0f9b00b8378b3cd50b7830e6fb9a227c6107f36
+    - https://download.gnome.org/sources/gnome-clocks/3.26/gnome-clocks-3.26.0.tar.xz : 0f30a0260e73c8c2925fb24b6abca0ad65f3021d695c42d74ccb2f18225e4501
 license    : GPL-2.0
 component  : desktop.gnome
 summary    : Gnome Clock application
@@ -17,11 +17,12 @@ builddeps  :
     - pkgconfig(gweather-3.0)
     - pkgconfig(libcanberra)
     - itstool
+    - vala
 rundeps    :
     - geoclue
 setup      : |
-    %configure
+    %meson_configure
 build      : |
-    %make
+    %meson_build
 install    : |
-    %make_install
+    %meson_install
