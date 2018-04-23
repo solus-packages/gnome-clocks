@@ -5,7 +5,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Packager>
-        <License>GPL-2.0</License>
+        <License>GPL-2.0-or-later</License>
         <PartOf>desktop.gnome</PartOf>
         <Summary xml:lang="en">Gnome Clock application</Summary>
         <Description xml:lang="en">World clocks, stopwatch, alarms and more
@@ -20,7 +20,6 @@
         <PartOf>desktop.gnome</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="data">/usr/share/appdata/org.gnome.clocks.appdata.xml</Path>
             <Path fileType="data">/usr/share/applications/org.gnome.clocks.desktop</Path>
             <Path fileType="data">/usr/share/dbus-1/services/org.gnome.clocks.service</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.clocks.gschema.xml</Path>
@@ -249,12 +248,13 @@
             <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/org.gnome.clocks.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/symbolic/apps/org.gnome.clocks-symbolic.svg</Path>
             <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="data">/usr/share/metainfo/org.gnome.clocks.appdata.xml</Path>
         </Files>
     </Package>
     <History>
-        <Update release="12">
-            <Date>2017-10-16</Date>
-            <Version>3.26.1</Version>
+        <Update release="13">
+            <Date>2018-04-23</Date>
+            <Version>3.28.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
