@@ -1,6 +1,6 @@
 name       : gnome-clocks
 version    : 3.28.0
-release    : 13
+release    : 14
 source     :
     - https://download.gnome.org/sources/gnome-clocks/3.28/gnome-clocks-3.28.0.tar.xz : d48e0bd0479b575adfc7beaa7cd9088258ee27142ab6305915a92cc8761aa7b5
 license    : GPL-2.0-or-later
