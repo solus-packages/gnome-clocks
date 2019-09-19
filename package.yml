@@ -1,8 +1,8 @@
 name       : gnome-clocks
-version    : 3.32.0
-release    : 15
+version    : 3.34.0
+release    : 16
 source     :
-    - https://download.gnome.org/sources/gnome-clocks/3.32/gnome-clocks-3.32.0.tar.xz : 6c8d90b0044f535f239bd94a7d0e46d0c9da32a6a141ff1233a78fa99a7cd4f0
+    - https://download.gnome.org/sources/gnome-clocks/3.34/gnome-clocks-3.34.0.tar.xz : 61195f357c63b65b75e209494e12a122a802c75333290e136813565dca94f03c
 license    : GPL-2.0-or-later
 component  : desktop.gnome
 summary    : Gnome Clock application
